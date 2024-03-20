@@ -10,6 +10,13 @@
 
 // 만약 상태이상 1의 상태만 확인하고 싶다? 
 // 비트마스크 이용
-// (flag & (1 << 3) != 0;
+// bool invinsible = (flag & (1 << 3) != 0;
 // flag 와 1<<3 이 같으면 true, 다르면 false
+
+// 상태 무적 변이 스턴 에어본 일때
+// 무적(1) 스턴(3)을 확인하고 싶다면
+// bool stunOrInvinsible = ((flag & ob1010));
+// or
+// mask = (1 << 3) | (1 << 1);
+// bool stunOrInvinsible = ((flag & mask));
 
