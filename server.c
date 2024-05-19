@@ -11,7 +11,6 @@ void error_handling(char* message) {
 	fprintf(stderr, "%s: %d\n", message, WSAGetLastError());
 	exit(1);
 }
-
 /*
 	구조체 문법
 	typedef struct { ... } WSADATA;
